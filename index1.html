@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="zara.css">
+</head>
+<body>
+    <div class="content">
+        <div class="logo">
+        <img src="img/320px-Zara_Logo.svg.png" width="150">
+    </div>
+    <div class="box1">
+        <h1>색상</h1>
+        <div class="R">
+          <label>Red</label>
+          <input class="red" type="range" min=0 max=255 step=5>
+        </div>
+        <div class="G">
+          <label>Green</label>
+          <input class="green" type="range" min=0 max=255 step=5>
+        </div>
+        <div class="B">
+          <label>Blue</label>
+          <input class="blue" type="range" min=0 max=255 step=5>
+        </div>
+        
+        <h1>문구</h1>
+        <form action>
+            <label>넣을 문구</label>
+            <input id='text' onchange='printName()'/><div class="enter">GO</div>
+            </form>
+
+        <div class="size">
+            <label>텍스트 사이즈</label>
+            <input type="range" min="20" max="50" step="4">
+        </div>
+        <div class="colors">
+        <div style="background-color:black;  color:white" class="selected">A</div>
+        <div style="background-color:rgb(255, 255, 255);  color:rgb(0, 0, 0) " class="selected">B</div>
+        <div style="background-color:rgb(229, 255, 0);  color:rgb(0, 0, 0) " class="selected">C</div>
+        <div style="background-color:rgb(72, 0, 255);  color:rgb(0, 0, 0) " class="selected">D</div>
+    </div>
+
+       
+    </div>
+    <div class="box2">
+        <div id='result'></div>
+        <img src="img/상의.png" alt="의상">
+
+        
+
+    </div>
+</div>
+<script src="zara.js"></script>
+
+</body>
+</html>

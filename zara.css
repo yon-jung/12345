@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'NanumSquare';
+}
+
+.content {
+    width: 1350px;
+    height: 100vh;
+    position:relative;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    left: 0px;
+    padding:0;
+    margin-left:50;
+    top: 50px;
+    position:fixed;
+    display: block;
+}
+.box1 {
+    background-color:rgb(222, 222, 222);
+    width:600px; 
+    height:700px;  
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.25);
+    margin-right: 50px;
+    float:left;
+    vertical-align: middle;
+    padding-bottom: 30px;
+}
+.box2 {
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    position:relative;
+    width:600px; 
+    height:600px;  
+
+    float:left;
+    vertical-align: middle;
+    text-align: center;
+}
+h1 {
+    margin: 30px;
+    margin-top: 100px;
+}
+label {
+    margin: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+    display: inline-block;
+     width: 80px;
+}
+
+form {
+    margin-top: 10px;
+    font-size: 9px;
+}
+#text {
+    font-size: 20px;
+    background-color: rgb(251, 251, 251);
+    border: none;
+}
+#result {
+    font-size: 30px;
+    position:absolute;
+    display:flex;
+    left: 250px;
+    bottom: 400px;
+    font-weight:bolder;
+    text-align:start;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+div.button{
+width: 50px;
+height: 50px;
+border-radius: 50px;
+border: none;
+position: relative;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font-size: 20px;
+float: left;
+margin-right: 30px;
+
+}
+
+div.button.selected{
+background-color: #111;
+color: white;
+}
+
+.enter {
+width: 40px;
+height: 20px;
+background-color: rgb(0, 0, 0);
+color: white;
+border-radius: 20px;
+padding-left: 13px;
+line-height: 20px;
+vertical-align: middle;
+box-shadow: 0px 0px 5px 3px rgb(160, 160, 160);
+margin-left: 10px;
+margin-bottom: 3px;
+display: inline-block;
+}
+.enter:hover {
+background-color: rgb(237, 237, 237);
+color:black;
+}
+.colors {
+position: relative;
+display:flex;
+margin-top: 50px;
+text-align: center;
+left: 10%
+}
+.selected {
+width: 60px;
+height: 60px;
+border-radius: 60px;
+text-align: center;
+line-height: 60px;
+vertical-align: middle;
+margin-left: 40px;
+font-size: 18px;
+color:rgb(0, 0, 0);
+}
